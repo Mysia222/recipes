@@ -1,0 +1,44 @@
+.content {
+  height: max-content;
+  margin: auto 327px;
+  background-color: white;
+  margin-bottom: 100px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.header {
+  background-color: $white;
+  height: 200px;
+}
+.logo {
+  margin-top: -40px;
+  margin-left: -30px;
+  height: 276px;
+  width: auto;
+}
+.ant-layout {
+  background: $white;
+}
+.hashtags {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.mainbtns {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 40px;
+  .searchbtn {
+    background-color: $second-color;
+  }
+}
+@media (max-width: 700px) {
+  .content {
+    margin: auto 70px;
+  }
+}
